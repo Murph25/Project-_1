@@ -1,0 +1,33 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Yellowtail&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: amaranth,sans-serif;
+    font-weight: 300;
+    color:#2F4858;
+    }
+ 
+h1{
+    padding-top: 70px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-family: yellowtail, sans-serif ;
+    text-align: center;
+    color: #327C83;
+}
+    
+#logo{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width:25%;
+    height: 250px;
+    border-radius: 50%;
+    background:url('../Images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center ;
+    background-size: contain;
+    
+}
+   
