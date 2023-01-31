@@ -29,7 +29,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 200%;
-    font-family: yellowtail, sans-serif ;
+    font-family: amaranth, sans-serif ;
     text-align: center;
     color: #2F4858;
     position:absolute;
@@ -38,6 +38,27 @@ body{
     width: 100%
 }
  
+.menu{
+    text-decoration: none;
+    color:#327C83;
+    display:flex; 
+    justify-content: center;
+    list-style-type: none;
+}
+a:link{
+    color:#327C83;
+    text-decoration:none;
+}
+a:visited{
+    color:#2F4858;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul li{
+    padding-right:15px;
+}
+
     
 
    
