@@ -8,26 +8,36 @@ body{
     font-weight: 300;
     color:#2F4858;
     }
- 
-h1{
-    padding-top: 70px;
+.container{
+    position: relative;
+
+}
+
+ img{
+    height:auto;
+    width: 33%;
+    border-radius: 50%;
+    border: 1px solid #327C83;
+    padding: 5px;
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+ }   
+
+.logo{
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 40px;
+    font-size: 200%;
     font-family: yellowtail, sans-serif ;
     text-align: center;
-    color: #327C83;
+    color: #2F4858;
+    position:absolute;
+    top:20%;
+    text-align: center;
+    width: 100%
 }
+ 
     
-#logo{
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    width:25%;
-    height: 250px;
-    border-radius: 50%;
-    background:url('../Images/pexels-sebastian-arie-voortman-189349.jpg') no-repeat center center ;
-    background-size: contain;
-    
-}
+
    
