@@ -10,11 +10,10 @@ body{
     }
 .container{
     position: relative;
-
 }
 
- img{
-    height:auto;
+ .sunrise{
+    height:33%;
     width: 33%;
     border-radius: 50%;
     border: 1px solid #327C83;
@@ -34,7 +33,6 @@ body{
     color: #2F4858;
     position:absolute;
     top:20%;
-    text-align: center;
     width: 100%
 }
  
@@ -60,5 +58,55 @@ ul li{
 }
 
     
+.text-block{
+    font-family: yellowtail,sans-serif;
+    font-size: 175%;
+    position:;
+    color:#327C83 ;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 
-   
+}
+.mid-container h2{
+    text-align: center;
+    text-decoration: underline;
+
+}
+.mid-content{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+.mid-content h3{
+    text-decoration:underline;
+    text-align: center;
+}
+.mid-content img{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.end-text-block{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    text-decoration: underline;
+}
+.social{
+    display:flex;
+    justify-content: right;
+    text-decoration: none;
+    list-style-type: none;
+    color:#327C83;
+    font-size: 25px;
+
+    
+}
