@@ -61,7 +61,6 @@ ul li{
 .text-block{
     font-family: yellowtail,sans-serif;
     font-size: 175%;
-    position:;
     color:#327C83 ;
     margin-left: 20px;
     margin-right: 20px;
@@ -109,4 +108,15 @@ ul li{
     font-size: 25px;
 
     
+}
+.photos{
+    clear:both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+
+}
+.photos img{
+    width:100%;
+    height:auto;
 }
