@@ -120,3 +120,22 @@ ul li{
     width:100%;
     height:auto;
 }
+.contact-container{
+    background-color: #2F4858;
+    color: aliceblue;
+}
+#contact-us{
+    display:flex;
+    flex-direction: column;
+    width:75%;
+    padding:100px;
+    resize: vertical;
+    font-size: 15px;
+
+}
+input[type=submit]{
+    width: 33%;
+    margin-left: 33%;
+    font-size:15px ;
+
+}
