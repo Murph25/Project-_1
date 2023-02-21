@@ -11,19 +11,19 @@
 
  .container {
      position: relative;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     height: 200px
  }
 
  .sunrise {
-     height: 33%;
-     width: 33%;
      border-radius: 50%;
-     border: 1px solid #327C83;
-     padding: 5px;
-     text-align: center;
      display: block;
      margin-left: auto;
      margin-right: auto;
      margin-top: 15px;
+     text-align: center;
  }
 
  .logo {
@@ -35,7 +35,7 @@
      color: #2F4858;
      position: absolute;
      top: 20%;
-     width: 100%
+     width: 10%
  }
 
  .menu {
@@ -120,6 +120,7 @@
      list-style-type: none;
      color: #327C83;
      font-size: 25px;
+     margin-right: 100px;
 
 
  }
@@ -164,9 +165,8 @@
  }
 
  @media screen and (max-width:950px) {
-    div > #sunrise{
-        width: 50%;
-        color:red;
+    
+        
     }
    .photos{
         column-count: 2;
