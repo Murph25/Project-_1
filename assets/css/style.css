@@ -115,12 +115,12 @@
 
  .social {
      display: flex;
-     justify-content: right;
+     justify-content: center;
      text-decoration: none;
      list-style-type: none;
      color: #327C83;
-     font-size: 25px;
-     margin-right: 100px;
+     font-size: 30px;
+     margin-right:25px ;
 
 
  }
@@ -161,24 +161,35 @@
  }
 
  @media screen and (max-width:1200px) {
-
+    .photos{
+        column-count: 3;
+    }
  }
 
  @media screen and (max-width:950px) {
-    
-        
-    }
-   .photos{
+    .photos{
         column-count: 2;
+    }    
     }
- }
+   
 
  @media screen and (max-width:600px) {
-    #sunrise{
-        width: 50%;
-        color: red;
+   
+    .photos{
+        column-count: 2;
     }
+    .mid-container{
+        flex-direction: column;
+    }
+
+ }
+
+ @media screen and (max-width:480px) {
+   
     .photos{
         column-count: 1;
+    }
+    .mid-container{
+        flex-direction: column;
     }
  }
