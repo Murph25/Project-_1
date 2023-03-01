@@ -78,7 +78,6 @@
  .mid-container h2 {
      text-align: center;
      text-decoration: underline;
-
  }
 
  .mid-content {
@@ -131,7 +130,6 @@
      line-height: 0;
      column-count: 3;
      column-gap: 0;
-
  }
 
  .photos img {
@@ -147,26 +145,14 @@
  #contact-us {
      display: flex;
      flex-direction: column;
-     width: 75%;
+     width: 40%;
      padding: 100px;
      resize: vertical;
      font-size: 15px;
+     margin-left: 20%;
 
  }
 
-input[type=text],
-input[type=email],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
-}
  input[type=submit] {
      width: 33%;
      margin-left: 33%;
@@ -183,7 +169,10 @@ textarea {
  @media screen and (max-width:950px) {
     .photos{
         column-count: 2;
-    }    
+    }  
+    .mid-content{
+        flex-direction: column;
+    }  
     }
    
 
@@ -192,7 +181,7 @@ textarea {
     .photos{
         column-count: 2;
     }
-    .mid-container{
+    .mid-content{
         flex-direction: column;
     }
 
@@ -203,7 +192,7 @@ textarea {
     .photos{
         column-count: 1;
     }
-    .mid-container{
+    .mid-content{
         flex-direction: column;
-    }
+    }    
  }
