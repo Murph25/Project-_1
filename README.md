@@ -26,7 +26,8 @@ Live site available [here](https://murph25.github.io/Project_1/).
 
 - 404 Page
     - 404 page will display if a link is not working.
-    ![404 image](assets/Readme/ )
+
+    ![404 image](assets/Readme/404.PNG )
 
 ### Home Page
     -Contains information on the benefits and rewards of meditation. 
@@ -54,16 +55,54 @@ Live site available [here](https://murph25.github.io/Project_1/).
 
  ## Testing
  ---
- I thank I have fixed any bugs that i am aware of so far, mainly through trial and error.
+ I thank I have fixed any bugs that I am aware of so far, mainly through trial and error.
+ All links are working and the form takes the appropriate inputs. 
+ I have tested the website on chrome, firefox and edge browsers and appear to all work appropriately.
 
  ## Validator Testing
  ---
     -HTML
         -No errors were found in testing.
 
-    CSS
+    -CSS
         -No errors were found in testing.
 
+    -Lighthouse
+        -Accessibility score of 100.
+        -Performance score of 93.
+
+ ## Technologies
+
+  - HTML was used to develop structure of the site
+
+  - CSS was used to style the site.
+
+  - Font Awesome was used for icons
+
+  - Convertio/tinypng - was used to convert images to smaller sizes
+
+  - Favicon was used to create tab logo
+
+  - Balsamiq was used to design the site layout
 
 
-- 
+ ## Deployment
+---
+    -Website deployed on Github and written on Gitpod.
+        - In Git hub Repository go to settings
+        - Navigate to 'pages' and select 'main' from 'branch' dropdown menu.
+        - Click save.
+        - After a few minutes the link will be available
+        -Here is the live link : https://murph25.github.io/Project_1/
+
+ ---
+ ## Credits
+    - Youtube channel Kevin powell - for various supports in understanding ideas and concepts
+    - W3C - for understanding concepts and problem solving
+    - Wikipedia - Content on meditation for the website
+    - pexels.com - for free images
+    - typ.io - for selecting fonts to use
+    - Canva - to create logo
+    - colormind.io - for selecting colours
+
+
