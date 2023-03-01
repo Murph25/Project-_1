@@ -19,15 +19,20 @@ Live site available [here](https://murph25.github.io/Project_1/).
 
   ![Footer](assets/Readme/footer.PNG)
 
-- Favicon? 
-    - 404 page will display if a link is nto working.
-    **image**
+- Favicon 
+    -Company logo will display on tabs to make the website tab easy to identify
+
+   ![Tab image](assets/Readme/favicon.PNG) 
+
+- 404 Page
+    - 404 page will display if a link is not working.
+    ![404 image](assets/Readme/ )
 
 ### Home Page
     -Contains information on the benefits and rewards of meditation. 
     -The websites purpose is to offer interested clients a way to contact the owner to avail of services provided. 
     
-    ![Homepage image](assets/Readme/homepage.PNG)
+  ![Homepage](assets/Readme/homepage.PNG)
 
 ### Contact Us
     - Users can contact site owner using form. 
@@ -37,23 +42,28 @@ Live site available [here](https://murph25.github.io/Project_1/).
         - Subject
     - Supports users in contacting owner about sound meditation courses and retreats. 
 
-    ![Contact](assets/Readme/contact.PNG)
+  ![Contact](assets/Readme/contact.PNG)
 
 ### Gallery 
     - Gallery shows images of clients on retreats and trainings.
-    
-    ![Gallery image](assets/Readme/gallery.PNG)
 
-## Design
+  ![Gallery image](assets/Readme/gallery.PNG)
 
-### Wireframes
+ ### Features to Implement
+    - Add client testimonials on Homepage under "why meditate"
 
-**wireframes images**
+ ## Testing
+ ---
+ I thank I have fixed any bugs that i am aware of so far, mainly through trial and error.
 
-## Technologies
+ ## Validator Testing
+ ---
+    -HTML
+        -No errors were found in testing.
 
-- HTML
-    -HTML was used to structure the website.
-- CSS
-    - CSS was used to style 
+    CSS
+        -No errors were found in testing.
+
+
+
 - 
