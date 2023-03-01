@@ -158,6 +158,10 @@
      font-size: 15px;
  }
 
+ #404{ 
+    text-align: center;
+ }
+
  @media screen and (max-width:1200px) {
     .photos{
         column-count: 3;
