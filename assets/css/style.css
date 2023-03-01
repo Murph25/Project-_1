@@ -119,12 +119,11 @@
      list-style-type: none;
      color: #327C83;
      font-size: 30px;
-     padding-right: 20px;
-     padding-left: 20px;
-
-
  }
-
+ .social li{
+     padding-right: 30px;
+     padding-left: 30px;
+ }
  .photos {
      clear: both;
      line-height: 0;
@@ -140,24 +139,23 @@
  .contact-container {
      background-color: #2F4858;
      color: aliceblue;
+     padding-top: 50px;
+     padding-bottom: 50px;
  }
 
  #contact-us {
      display: flex;
      flex-direction: column;
      width: 40%;
-     padding: 100px;
      resize: vertical;
      font-size: 15px;
-     margin-left: 20%;
-
+     margin-left: 32%;
  }
 
  input[type=submit] {
      width: 33%;
      margin-left: 33%;
      font-size: 15px;
-
  }
 
  @media screen and (max-width:1200px) {
@@ -177,18 +175,15 @@
    
 
  @media screen and (max-width:600px) {
-   
     .photos{
         column-count: 2;
     }
     .mid-content{
         flex-direction: column;
     }
-
  }
 
  @media screen and (max-width:480px) {
-   
     .photos{
         column-count: 1;
     }
